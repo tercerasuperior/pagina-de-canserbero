@@ -1,0 +1,313 @@
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cansabero</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+</style>
+
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Canserbero</b></h1>
+    <h6>el rey del rap de Venezuela  <span class="w3-tag"> </span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="CAN.webp" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b></b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2>Tirone José González Orama</h2>
+          <h5>fue el mejor exponente del rap en español .
+        <p> Canserbero como era llamdo artisticamente nacio en Caracas venezuela  el 11 de marzo de 1988, pero de niño lo llevaron a vivir en Maracay , el pequeño tirone perdio a su madre a los 9 años y a los 12 a su hermano mayor . Desde ese momento se crio con su padre , todo esto cambio la mentalidad de tirone y empezo a escuchar musica critica y pesada a los 13 años empeso a rapear y ganarce el respeto .</p>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="descarga (7).jpeg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> </p> <!--contenido-->
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>compartidos  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="descarga.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Inspiraciones <span class="w3-opacity w3-medium"></span>  </h4>
+                <p> este tuvo como influencias al merengue hip hop , el rap y varios cantantes de rock . Sus temas tocaban los temas de politica , filosofia  , religion exponia los temas en formas de poesias en rap incluyendo vivencias y sentimientos. </p>
+                <br>
+                <p>activista, poeta, rapero... </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Teoria de su muerte </h3>
+          <h5> Un misterio ... <span class="w3-opacity">¿fue el gobierna?</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="4526550d08f826b4dd5bc16d832cec26.jpeg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Murio en Maracay </strong> el 20 de enero de 2015</p>
+          <p> su muerte fue un misterio , se creia que sufria de esquisofrenia pero solo fue una mentira para evadir las miradas de las personas , y no se fijaran que su meurte tienes muchos misterios sin resolver .
+             muchas peronas creen que fue el gobierno por las fuertes satiras que escribia , ademas estaba levantando al pueblo en una sola vos y se creen que hay mas implicados . <a href="https://rpp.pe/famosos/celebridades/canserbero-suicidio-o-asesinato-se-cumplen-5-anos-de-la-muerte-del-rapero-apache-venezuela-carlos-molnar-noticia-1240588"> Si quieres saber mas del tema .</a></p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+        
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="descarga (8).jpeg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Colaboraciones <span class="w3-opacity w3-medium"></span></h4>
+                <p> Malva rodriguez, Apache , MClopedia , blak kamikase , etc.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="canserbero-homenaje.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4> Conciertos  <span class="w3-opacity w3-medium"></span></h4>
+                <p>México, Venezuela, Chile y Argentina</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="INMY62OZRJHT5ALA5L72TF2H5Q.avif" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4> Gracias Canserbero<span class="w3-opacity w3-medium"></span></h4>
+                <p>"No se muere quien se va solo se muere quien se olvida"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="cerberus1.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>canserbero</h4>
+          <p>en la mitologia es el gran perro del infierno , quien cuida las almas de los muertos para que no escapen del infierno.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>temas </h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="FpBOtgWWIAQGDkx.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Querer querernos</span>
+            <br>
+            <span>Habla de dos personas que estan echas el uno para el otro y la cama lo demuestra . </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="FjfDq4dX0Acx5RN.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Maquiavelico</span>
+            <br>
+            <span>habla de como el amor puede doler despues de acabarse y recordar todo siempre...</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="descarga (3).jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Es epico</span>
+            <br>
+            <span>este tema habla de un joven que por venganza mata a un malandro (maton) que mata a su hermano, se va al infierno por lo sucedido y en ese lugar se enfrenta con Satanas en una batalla de rap .</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="efdd35887146faebf08cddbf9e9185bf.400x400x1.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Jeremias 17-5</span>
+            <br>
+            <span>Habla de la venganza y la traicion.</span>
+          </li>
+          <br>
+          <li> 
+            <img src="hqdefault.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"> Visiones </span>
+            <br>
+            <span> este tema entra en lo mas delicado de Venezuela , habla de los problemas internos del pais.</span>
+         </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>albumes</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Vida</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Muerte</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Guia para la accion </span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Can-Zoo indigos</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Apa y Can</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Codigos de barrio</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Give me 5</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Y sub albumes</span> 
+            
+        
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Influencias</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="BTUHTWL2QNHE3D3EDXWDX7LLLU.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="descarga (6).jpeg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="descarga (4).jpeg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="descarga (5).jpeg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
